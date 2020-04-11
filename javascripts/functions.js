@@ -9,3 +9,11 @@ var arrAVG = listA => {
 };
 
 arrAVG([6, 2, 4]);
+var arrMax = listB => {
+  var largest = 0;
+  listB.forEach(function(elem) {
+    if (largest < elem) largest = elem;
+  });
+  return largest;
+};
+arrMax([6, 2, 4]);
