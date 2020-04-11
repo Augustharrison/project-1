@@ -9,6 +9,7 @@ var arrAVG = listA => {
 };
 
 arrAVG([6, 2, 4]);
+
 var arrMax = listB => {
   var largest = 0;
   listB.forEach(function(elem) {
@@ -17,3 +18,14 @@ var arrMax = listB => {
   return largest;
 };
 arrMax([6, 2, 4]);
+
+var sumEvens = listC => {
+  var sum = 0;
+  for (let i of listC) {
+    if (i % 2 == 0) {
+      sum = sum + i;
+    }
+  }
+
+  return sum;
+};
