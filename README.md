@@ -17,3 +17,6 @@
   • JavaScript ES6+ features
 
 I learned how useful it is to use a shell instead of making folders on my own
+
+![](images/octocatt.png)
+[My Website](https://pages.uoregon.edu/augusth/281/)
